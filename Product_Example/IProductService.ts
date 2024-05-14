@@ -3,7 +3,7 @@ import {Product} from "./Product"
 
 //Sadece method imzalari tanimlanacak.
 //Body yer almayacak
-interface IProductService{
+export interface IProductService{
     getById(id:number): Product;
     getProducts(): Array<Product>;
     //getProducts(): Product[];
