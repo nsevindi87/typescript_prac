@@ -1,7 +1,7 @@
 import { Product } from "./Product";
 
 
-export class simpleDataSource{
+export class SimpleDataSource{
     private products: Array<Product>;
 
     constructor(){
